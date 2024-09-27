@@ -1,0 +1,74 @@
+body.homepage {
+    background-image:url("https://i.ytimg.com/vi/h7OO19NkUl8/maxresdefault.jpg");
+    background-repeat:no-repeat;
+}
+body.matches {
+    background-color:dodgerblue;
+}
+header {
+    text-align:center;
+    color:orangered;
+    font-family:Impact, fantasy;
+}
+p.intro {
+    width:500px;
+    text-align:center;
+    color:white;
+    font-family:Impact, fantasy;
+    font-size:large;
+}
+main {
+    position: relative;
+    left:450px
+}
+.button1 {
+    position:absolute;
+    bottom:10px;
+    right:80%
+}
+.button2 {
+    position:absolute;
+    bottom:10px;
+    left:44%
+}
+.button3 {
+    position:absolute;
+    bottom:10px;
+    left:80%;
+}
+.match-button {
+    padding:50px;
+    background-color:black;
+    color:white;
+    margin:10px;
+    border-radius:10px;
+}
+footer h3 {
+    color:orangered;
+    font-family:Impact, fantasy;
+    text-align:center;
+    position:absolute;
+    bottom:130px;
+    left:47.6%;
+}
+.game1:hover {
+    background-image:url("v1Nrg.png");
+    padding:100px;
+    transition:background-image 1s, padding 1s;
+}
+.game2:hover {
+    background-image:url("digNRG.png");
+    padding:100px;
+    transition:background-image 1s, padding 1s;
+}
+.game3:hover {
+    background-image:url("moistFuria.png");
+    padding:100px;
+    transition:background-image 1s, padding 1s;
+}
+.home:hover {
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0Fz59vsy4bGYPZa9MAsEPf5lmM7EVwGTkOQ&s");
+    background-repeat:no-repeat;
+    padding:100px;
+    transition:all 1s;
+}
